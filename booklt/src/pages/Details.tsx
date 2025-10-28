@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { experienceService } from '../services/api';
-import type { Experience, Slot } from '../types';
+import type { Experience } from '../types';
 import LoadingSpinner from '../components/LoadingSpinner';
 
 const Details = () => {
